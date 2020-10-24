@@ -8,8 +8,8 @@ scoreboard objectives add staminaPoint dummy
 
 ### staminaPointInfo ###
     scoreboard objectives add staminaPointInfo dummy
-    scoreboard players set pointMax staminaPointInfo 1500
+    scoreboard players set pointMax staminaPointInfo 2000
     scoreboard players set exhaustionStart staminaPointInfo 0
-    scoreboard players set exhaustionEnd staminaPointInfo 200
+    scoreboard players set exhaustionEnd staminaPointInfo 800
     scoreboard players set isExhaustion staminaPointInfo 0
 ### staminaPointInfo ###

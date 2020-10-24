@@ -1,2 +1,2 @@
 
-scoreboard players remove @s staminaPoint 40
+scoreboard players remove @s staminaPoint 30
