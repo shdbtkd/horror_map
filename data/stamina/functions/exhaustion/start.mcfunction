@@ -1,0 +1,1 @@
+scoreboard players set isExhaustion staminaPointInfo 1
