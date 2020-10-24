@@ -41,9 +41,3 @@ execute as @a if score @s foodSaturation matches 2.. run function stamina:exhaus
     ### point min max ###
         # execute 
 ### stamina point ###
-
-### 허기를 스테미나 포인트로 표현하는 방식 ###
-    # execute as @a if predicate main:common/is_sprint run say 1
-    # data get entity @s foodExhaustionLevel
-    # data get entity @s foodLevel
-### 허기를 스테미나 포인트로 표현하는 방식 ###
