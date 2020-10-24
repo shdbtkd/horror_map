@@ -41,5 +41,6 @@ execute as @a if score @s foodLevel matches 7 if score isExhaustion staminaPoint
         execute as @a if score isExhaustion staminaPointInfo matches 1 unless score @s foodLevel matches 6 run function stamina:exhaustion/blocking_sprint
         execute as @a if score isExhaustion staminaPointInfo matches 1 if score @s foodLevel matches ..6 if data entity @s ActiveEffects[{ Id: 17b }] run effect clear @s minecraft:hunger
     ### point min max ###
-        # execute 
+        execute as @a if score @s staminaPoint > pointMax staminaPointInfo run scoreboard players operation @s staminaPoint = pointMax staminaPointInfo
+        execute as @a if score @s staminaPoint matches ..-1 run scoreboard players set @s staminaPoint 0
 ### stamina point ###
