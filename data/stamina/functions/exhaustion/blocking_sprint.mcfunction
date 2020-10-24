@@ -30,5 +30,3 @@ execute if score @s foodLevel matches 5 run effect give @s minecraft:saturation 
     # 6 - 11 = -5
     # execute if score @s foodLevel matches 11.. run effect give @s minecraft:hunger 1 200 true
 ### old ver ###
-
-#  say 1

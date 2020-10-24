@@ -4,14 +4,16 @@
 #   포화 [lv 1] 1초당 허기레벨 1 증가, 포화레벨 2 증가
 #
 #   to do list
-#     - 기본 허기 레벨 7로 변경 필요
-#       탈진 상태일때, 허기 레벨이 너무 늦게 떨어짐
-#       허기 레벨 6이 되기 전에 7로 증가 시켜야 함
+#     - 탈진 하지 않은 상태일때, 달리는 도중 허기레벨이 6보다 낮아져서 달리기가 않되는 상황이 나오는지 확인 필요
 #
 
 function stamina:score/set
-# food level reset / 허기 레벨이 8이 아님 / 탈진상태가 아님
-execute as @a unless score @s foodLevel matches 8 if score isExhaustion staminaPointInfo matches 0 run function stamina:exhaustion/keep_food_level
+# saturation level reset / 포화 레벨이 2보다 큼
+execute as @a if score @s foodSaturation matches 2.. run function stamina:keep/saturation
+# food level reset / 허기 레벨이 7이 아님 / 탈진상태가 아님
+execute as @a unless score @s foodLevel matches 7 if score isExhaustion staminaPointInfo matches 0 run function stamina:keep/food_level
+# blocking food level down / 허기 레벨이 7임 / 탈진상태가 아님 / 허기 탈진 레벨이 1보다 작음
+execute as @a if score @s foodLevel matches 7 if score isExhaustion staminaPointInfo matches 0 if score @s foodExhaustion matches ..1 run function stamina:keep/exhaustion
 
 ### 허기를 스테미나 포인트로 표현하는 방식 ###
     # execute as @a if predicate main:common/is_sprint run function stamina:is_sprint
@@ -19,7 +21,7 @@ execute as @a unless score @s foodLevel matches 8 if score isExhaustion staminaP
     # execute as @a if score @s staminaWalkCm matches 1.. run scoreboard players set @s staminaWalkCm 0
 ### 허기를 스테미나 포인트로 표현하는 방식 ###
 
-execute as @a if score @s foodSaturation matches 2.. run function stamina:exhaustion/keep_saturation
+
 
 ### stamina point ###
     ### up ###
@@ -36,7 +38,7 @@ execute as @a if score @s foodSaturation matches 2.. run function stamina:exhaus
         # exhaustion end / 스테미나 포인트가 탈진상태 해제 값보다 크거나 같음 / 탈진상태임
         execute as @a if score @s staminaPoint >= exhaustionEnd staminaPointInfo if score isExhaustion staminaPointInfo matches 1 run function stamina:exhaustion/end
         # exhaustion keep / 탈진상태임 / 허기
-        execute as @a if score isExhaustion staminaPointInfo matches 1 unless score @s foodLevel matches 6 run function stamina:exhaustion/keep_exhaustion
+        execute as @a if score isExhaustion staminaPointInfo matches 1 unless score @s foodLevel matches 6 run function stamina:exhaustion/blocking_sprint
         execute as @a if score isExhaustion staminaPointInfo matches 1 if score @s foodLevel matches ..6 if data entity @s ActiveEffects[{ Id: 17b }] run effect clear @s minecraft:hunger
     ### point min max ###
         # execute 
