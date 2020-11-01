@@ -1,0 +1,1 @@
+# data merge storage play_data {PlayData: {StaminaPoint: 2000, MentalPoint: 100, HealthPoint: 20, Inventory: [{}]}, progressData: {}}

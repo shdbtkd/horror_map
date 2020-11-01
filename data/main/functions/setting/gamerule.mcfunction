@@ -22,3 +22,6 @@ gamerule doMobSpawning false
 gamerule doMobLoot false
 # 날씨변동
 gamerule doWeatherCycle false
+# 몬스터 블록 파괴
+gamerule mobGriefing false
+
