@@ -27,12 +27,16 @@
 #       ㄴ give @p armor_stand{EntityTag:{Tags:["inventory_anchor", "inventory_anchor-tab_save"]}}
 #       ㄴ give @p armor_stand{EntityTag:{Tags:["inventory_anchor", "inventory_anchor-tab_load"]}} << 이게 필요 할까?? 위에 save 하나로도 되지 않을까???
 #
+#   - 
+#       ㄴ data merge storage inventory_storage {}
+#
 ### 필요한 기능 ###
 
 ### save ###
     ### 핫바 ###
         # execute as @a at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ ~5 ~ run function inventory:save/hotbar
-    ### 핫바 ###
+    ### 인벤토리 ###
+        # execute as @a at @e[tag=inventory_anchor, tag=inventory_anchor-tab_inven] positioned ~ ~2 ~ run function inventory:save/inventory
 ### save ###
 
 ### merge ###
@@ -43,15 +47,16 @@
     ### 웨폰 ###
 ### merge ###
 
+### tab ###
+    execute as @a if score selectedTab invenTabInfo matches 1.. run function inventory:tab/action
+    execute as @a run function inventory:tab/checker
+### tab ###
+
 ### drop ###
     ### 핫바 ###
     ### 텝메뉴 ###
         # execute as @a at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ ~3 ~ run loot replace entity @s inventory.0 mine ~ ~ ~ stick{drop_contents:true}
     ### 인벤 ###
+        # execute as @a at @e[tag=inventory_anchor, tag=inventory_anchor-tab_inven] positioned ~ ~2 ~ run loot replace entity @s inventory.9 mine ~ ~ ~ stick{drop_contents:true}
     ### 웨폰 ###
 ### drop ###
-
-### tab ###
-    execute as @a if score selectedTab invenTabInfo matches 1.. run function inventory:tab/action
-    execute as @a run function inventory:tab/checker
-### tab ###

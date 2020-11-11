@@ -6,7 +6,7 @@
 #
 #   execute at @e[tag=inventory-anchor] run setblock ~ ~ ~ minecraft:oak_sign
 #
-#   data merge storage play_data {PlayData: {StaminaPoint: 2000, MentalPoint: 100, HealthPoint: 20, Inventory: [{}]}, StructureData: {}, EventData: {}}
+#   data merge storage play_data {PlayData: {StaminaPoint: 2000, MentalPoint: 100, HealthPoint: 20, Inventory: { hotbar: {}, tab: {}, inventory: {} } }, StructureData: {}, EventData: {}}
 #
 #   플레이어
 #

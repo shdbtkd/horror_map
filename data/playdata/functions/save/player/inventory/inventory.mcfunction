@@ -1,0 +1,1 @@
+data modify storage minecraft:play_data PlayData.Inventory.inventory set from entity @s Inventory

@@ -1,3 +1,4 @@
+### 0 ~ 8 ###
 execute if data entity @s Inventory[{ Slot: 0b }] run data modify block ~ ~ ~ Items append from entity @s Inventory[{ Slot: 0b }]
 execute if data entity @s Inventory[{ Slot: 1b }] run data modify block ~ ~ ~ Items append from entity @s Inventory[{ Slot: 1b }]
 execute if data entity @s Inventory[{ Slot: 2b }] run data modify block ~ ~ ~ Items append from entity @s Inventory[{ Slot: 2b }]
