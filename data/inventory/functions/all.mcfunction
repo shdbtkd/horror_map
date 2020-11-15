@@ -24,6 +24,10 @@
         # 아이템을 바꿔치기 했을때
         execute as @a unless data entity @s Inventory[{ Slot: 17b, id: "minecraft:white_stained_glass_pane", tag: { InvenBg: 1b }}] run function inventory:wrong/change_invenbg
     ### 텝메뉴 ###
+        # 아이템을 바꿔치기 했을때
+        execute as @a if data entity @s Inventory[{ Slot: 9b }] unless data entity @s Inventory[{ Slot: 9b, id: "minecraft:white_stained_glass_pane", tag: { tabPointer: 9 }}] run function inventory:wrong/change_tab_9
+        execute as @a if data entity @s Inventory[{ Slot: 10b }] unless data entity @s Inventory[{ Slot: 10b, id: "minecraft:white_stained_glass_pane", tag: { tabPointer: 10 }}] run function inventory:wrong/change_tab_10
+        execute as @a if data entity @s Inventory[{ Slot: 11b }] unless data entity @s Inventory[{ Slot: 11b, id: "minecraft:white_stained_glass_pane", tag: { tabPointer: 11 }}] run function inventory:wrong/change_tab_11
     ### ㄴ ###
 ### 잘못된 동작 ###
 
