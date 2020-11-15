@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ merge_target: 1b }"
+            }, {
+              "function": "minecraft:set_name",
+              "name": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
