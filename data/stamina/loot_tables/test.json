@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone",
-          "functions": [
+          "conditions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{ merge_target: 1b }"
-            }, {
-              "function": "minecraft:set_name",
-              "name": ""
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPoint": 2000
+              }
             }
           ]
         }

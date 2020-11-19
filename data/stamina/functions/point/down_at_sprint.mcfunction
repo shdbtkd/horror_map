@@ -1,2 +1,2 @@
 
-scoreboard players remove @s staminaPoint 30
+scoreboard players operation @s staminaPoint -= downAtSprint staminaPointInfo

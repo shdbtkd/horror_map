@@ -6,7 +6,7 @@
 # tp _Rono ~ ~ ~
 
 # execute as @e[tag=inventory-anchor] at @s run setblock ~ ~ ~ birch_sign
-execute as @a at @e[tag=inventory-anchor] run data merge block ~ ~3 ~ {Text2:'["", {"score":{"name":"playedHour","objective":"playedTime"},"color":"gray"}, {"text": ":", "color":"gray"}, {"score":{"name":"playedMinute","objective":"playedTime"},"color":"gray"}]'}
+execute as @a[tag= player] at @e[tag=inventory-anchor] run data merge block ~ ~3 ~ {Text2:'["", {"score":{"name":"playedHour","objective":"playedTime"},"color":"gray"}, {"text": ":", "color":"gray"}, {"score":{"name":"playedMinute","objective":"playedTime"},"color":"gray"}]'}
 
 # playedSecond
 # execute at @e[tag=inventory-anchor] run data modify block ~ ~2 ~ Items[0].tag.display.Lore append from block ~ ~ ~ {Text1:'["", {"score":{"name":"_Rono","objective":"playedTime"},"color":"white"}]'}
