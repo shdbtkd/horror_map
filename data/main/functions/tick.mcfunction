@@ -5,6 +5,8 @@ function stamina:all
 function playdata:all
 # 인벤토리
 function inventory:all
+# 아이템 프레임
+function inventory:all
 
 ### 세이브, 로드 ###
 #

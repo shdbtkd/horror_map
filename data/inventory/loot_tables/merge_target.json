@@ -5,12 +5,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone",
+          "name": "minecraft:end_crystal",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{ merge_target: 1b }"
-            }, {
               "function": "minecraft:set_name",
               "name": ""
             }
