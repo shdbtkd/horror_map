@@ -1,2 +1,2 @@
 
-scoreboard players operation @s staminaPoint -= downAtSprint staminaPointInfo
+scoreboard players operation point staminaPointInfo -= downAtSprint staminaPointInfo

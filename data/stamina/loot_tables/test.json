@@ -5,14 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone",
-          "conditions": [
+          "name": "minecraft:command_block",
+          "functions": [
             {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "staminaPoint": 2000
-              }
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @s actionbar {\"text\":\"\\ue095\"}\"}}"
             }
           ]
         }

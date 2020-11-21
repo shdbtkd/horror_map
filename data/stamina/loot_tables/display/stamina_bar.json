@@ -1,0 +1,2138 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue000\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 0
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue001\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 1
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue002\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 2
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue003\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 3
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue004\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 4
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue005\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 5
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue006\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 6
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue007\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 7
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue008\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 8
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue009\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 9
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue010\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 10
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue011\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 11
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue012\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 12
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue013\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 13
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue014\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 14
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue015\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 15
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue016\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 16
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue017\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 17
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue018\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 18
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue019\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 19
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue020\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 20
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue021\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 21
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue022\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 22
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue023\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 23
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue024\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 24
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue025\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 25
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue026\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 26
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue027\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 27
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue028\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 28
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue029\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 29
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue030\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 30
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue031\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 31
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue032\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 32
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue033\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 33
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue034\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 34
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue035\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 35
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue036\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 36
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue037\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 37
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue038\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 38
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue039\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 39
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue040\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 40
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue041\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 41
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue042\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 42
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue043\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 43
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue044\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 44
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue045\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 45
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue046\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 46
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue047\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 47
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue048\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 48
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue049\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 49
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue050\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 50
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue051\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 51
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue052\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 52
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue053\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 53
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue054\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 54
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue055\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 55
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue056\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 56
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue057\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 57
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue058\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 58
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue059\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 59
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue060\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 60
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue061\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 61
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue062\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 62
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue063\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 63
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue064\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 64
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue065\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 65
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue066\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 66
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue067\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 67
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue068\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 68
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue069\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 69
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue070\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 70
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue071\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 71
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue072\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 72
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue073\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 73
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue074\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 74
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue075\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 75
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue076\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 76
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue077\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 77
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type":"item",
+          "weight":1,
+          "name":"minecraft:command_block",
+          "functions": [
+            {
+              "function":"set_count",
+              "count":1
+            },{
+              "function":"set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"title @a[tag= player] actionbar [{\\\"text\\\":\\\"\\\\ua000\\\"}, {\\\"text\\\":\\\"\\\\ue078\\\"}]\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "staminaPointPer": 78
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
