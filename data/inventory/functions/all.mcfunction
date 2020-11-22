@@ -13,7 +13,7 @@
     ### 텝메뉴 ###
         # function inventory:merge/tab
     ### 인벤 ###
-        # function inventory:merge/inventory
+        # function inventory:merge/inventory_selected
     ### 웨폰 ###
 ### merge ###
 
