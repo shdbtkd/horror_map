@@ -1,4 +1,4 @@
-say change
+say change Inven_bg
 
 clear @s #inventory:tab_items{ InvenBg: 1b }
 execute as @a[tag= player] at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 6 ~ run function inventory:save/hotbar

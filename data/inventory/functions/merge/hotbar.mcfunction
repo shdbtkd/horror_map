@@ -1,1 +1,1 @@
-execute as @a[tag= player] at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 4 ~ run
+execute as @a[tag= player] at @e[tag=inventory_anchor, tag=inventory_anchor-main] run loot replace block ~ 3 ~ container.0 mine ~ 6 ~ stick{drop_contents:true}

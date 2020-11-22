@@ -6,7 +6,7 @@ function playdata:all
 # 인벤토리
 function inventory:all
 # 아이템 프레임
-function inventory:all
+function item_frame:all
 
 ### 세이브, 로드 ###
 #

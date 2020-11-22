@@ -15,6 +15,7 @@
         execute if score activeTab invenTabInfo matches 9 at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 8 ~ run function inventory:save/inventory
     ### 인벤토리 드롭 ###
         # 병합
+        function inventory:merge/tab
         function inventory:merge/inventory
         # 드롭
         execute as @a[tag= player] at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 4 ~ run loot replace entity @s inventory.0 mine ~ ~ ~ stick{drop_contents:true}
