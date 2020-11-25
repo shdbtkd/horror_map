@@ -1,0 +1,2 @@
+execute rotated ~ ~ run summon armor_stand ~ ~ ~ {Small:1b, Tags: ["tall_door_anchor", "tall_door_anchor-mirror"], Invisible: 0b, NoGravity: 1b}
+execute as @e[tag= tall_door_anchor, limit= 1, sort= nearest, distance= 0] run function tall_door:install/set

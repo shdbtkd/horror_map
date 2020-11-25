@@ -7,6 +7,8 @@ function playdata:all
 function inventory:all
 # 아이템 프레임
 function item_frame:all
+# 큰 문
+function tall_door:all
 
 ### 세이브, 로드 ###
 #
