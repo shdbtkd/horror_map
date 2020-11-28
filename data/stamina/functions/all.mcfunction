@@ -49,5 +49,5 @@ execute as @a[tag= player] if score @s foodLevel matches 7 if score isExhaustion
     ### 퍼샌트 수치 ###
         execute as @a[tag= player] run function stamina:point/per
     ### 게이지 표시 ###
-        # execute as @a[tag= player] at @e[tag= stamina_anchor, tag=stamina_anchor-display] run function stamina:point/display
+        execute as @a[tag= player] at @e[tag= stamina_anchor, tag=stamina_anchor-display] run function stamina:point/display
 ### stamina point display ###
