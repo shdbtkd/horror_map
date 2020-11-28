@@ -16,3 +16,5 @@
 #
 #   이벤트
 #
+
+execute if score isTimePass playedTime matches 1 run function playdata:time/act
