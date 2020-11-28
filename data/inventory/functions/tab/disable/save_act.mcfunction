@@ -7,4 +7,4 @@ data modify block ~ 5 ~ Items[{ Slot: 1b }].tag.display.Lore append from block ~
 # 텍스쳐 설정
 data modify block ~ 5 ~ Items[{ Slot: 1b }].tag.CustomModelData set value 12
 # 인벤토리 드롭
-function inventory:tab/event/drop
+function inventory:tab/event/drop_active

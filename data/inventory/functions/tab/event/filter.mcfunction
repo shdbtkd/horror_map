@@ -20,5 +20,5 @@
         # 다른 텝 메뉴를 선택했을 때
         execute unless score activeTab invenTabInfo = selectedTab invenTabInfo at @e[tag=inventory_anchor, tag=inventory_anchor-main] run function inventory:tab/event/texture
     ### 인벤토리 드롭 ###
-        function inventory:tab/event/drop
+        function inventory:tab/event/drop_selected
 ### filter ###
