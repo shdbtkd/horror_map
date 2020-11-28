@@ -11,8 +11,8 @@
         # 텝메뉴 누르면 저장
         execute at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 6 ~ run function inventory:save/hotbar
     ### 비활성화 체크 ###
-        execute if score disableLoad invenTabInfo matches 1 if score selectedTab invenTabInfo matches 10 run scoreboard players set selectedTab invenTabInfo 9
-        execute if score disableSave invenTabInfo matches 1 if score selectedTab invenTabInfo matches 11 run scoreboard players set selectedTab invenTabInfo 9
+        execute if score disableSave invenTabInfo matches 1 if score selectedTab invenTabInfo matches 10 run scoreboard players operation selectedTab invenTabInfo = activeTab invenTabInfo
+        execute if score disableLoad invenTabInfo matches 1 if score selectedTab invenTabInfo matches 11 run scoreboard players operation selectedTab invenTabInfo = activeTab invenTabInfo
     ### 인벤토리 저장 ###
         # 이전 텝메뉴가 inven 일때
         execute if score activeTab invenTabInfo matches 9 at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 8 ~ run function inventory:save/inventory
