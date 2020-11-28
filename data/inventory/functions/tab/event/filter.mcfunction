@@ -13,6 +13,9 @@
     ### 인벤토리 저장 ###
         # 이전 텝메뉴가 inven 일때
         execute if score activeTab invenTabInfo matches 9 at @e[tag=inventory_anchor, tag=inventory_anchor-main] positioned ~ 8 ~ run function inventory:save/inventory
+    ### 텍스쳐 변경 ###
+        # 다른 텝 메뉴를 선택했을 때
+        execute unless score activeTab invenTabInfo = selectedTab invenTabInfo at @e[tag=inventory_anchor, tag=inventory_anchor-main] run function inventory:tab/event/texture
     ### 인벤토리 드롭 ###
         # 병합
         function inventory:merge/tab

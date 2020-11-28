@@ -20,9 +20,9 @@
 ### 잘못된 동작 ###
     ### 인벤토리 배경 ###
         # 그냥 뺐을때
-        # execute as @a[tag= player] unless data entity @s Inventory[{ Slot: 17b }] run function inventory:wrong/click_invenbg
+        execute as @a[tag= player] unless data entity @s Inventory[{ Slot: 17b }] run function inventory:wrong/click_invenbg
         # 아이템을 바꿔치기 했을때
-        # execute as @a[tag= player] unless data entity @s Inventory[{ Slot: 17b, id: "minecraft:white_stained_glass_pane", tag: { InvenBg: 1b }}] run function inventory:wrong/change_invenbg
+        execute as @a[tag= player] unless data entity @s Inventory[{ Slot: 17b, id: "minecraft:white_stained_glass_pane", tag: { invenBg: 1b }}] run function inventory:wrong/change_invenbg
     ### 텝메뉴 ###
         # 아이템을 바꿔치기 했을때
         execute as @a[tag= player] if data entity @s Inventory[{ Slot: 9b }] unless data entity @s Inventory[{ Slot: 9b, id: "minecraft:white_stained_glass_pane", tag: { tabPointer: 9 }}] run function inventory:wrong/change_tab_9
