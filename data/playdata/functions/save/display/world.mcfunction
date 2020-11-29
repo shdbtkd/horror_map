@@ -1,1 +1,0 @@
-data modify block -11 1 14 Text1 set value '{"text": "새로운 세계"}'
