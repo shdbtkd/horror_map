@@ -1,3 +1,4 @@
+scoreboard objectives add fileClickInfo dummy
 
 scoreboard objectives add playedTime dummy
 

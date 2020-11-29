@@ -1,0 +1,563 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 0",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 1",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 2",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 3",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 4",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 5",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 6",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 7",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 8",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 9",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 10",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 11",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 12",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 13",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 14",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 15",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 16",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "file 17",
+                  "italic": false
+                }
+              ]
+            }, {
+              "function": "minecraft:set_nbt",
+              "tag": "{saveFile: 1b}"
+            }, {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "빈 파일",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
