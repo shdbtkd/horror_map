@@ -28,8 +28,11 @@ loot insert ~ 10 ~ loot playdata:initial_source_file
 ### 적용 ###
     ### 삽입 ###
         execute store result block ~ 10 ~ Items[0].Slot byte 1 run scoreboard players get selectedSlot fileClickInfo
+        data modify block ~ 10 ~ Items[0].tag.CustomModelData set value 1
         data modify block ~ 9 ~ Items append from block ~ 10 ~ Items[0]
 ### 적용 ###
 
 # 플레이 시간 정수로 다시 저장
 function playdata:save/player/time/store
+# 소리 재생
+execute at @s run playsound minecraft:ui.cartography_table.take_result player @s ~ ~ ~ 0.7 0.8
