@@ -9,6 +9,10 @@ function inventory:all
 function item_frame:all
 # 큰 문
 function tall_door:all
+# 큰 문
+function tellraw:all
+# 큰 문
+function raycast:all
 
 ### 세이브, 로드 ###
 #
