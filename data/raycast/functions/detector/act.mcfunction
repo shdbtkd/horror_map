@@ -1,0 +1,5 @@
+execute unless entity @e[tag= ray-cast_detected] positioned ~ ~1 ~ as @e[tag= !player, tag= raycast-tracking_target, limit= 1, sort= nearest, distance= ..0.45] run tag @s add ray-cast_detected 
+execute unless entity @e[tag= ray-cast_detected] positioned ~ ~0.5 ~ as @e[tag= !player, tag= raycast-tracking_target, limit= 1, sort= nearest, distance= ..0.45] run tag @s add ray-cast_detected 
+execute unless entity @e[tag= ray-cast_detected] positioned ~ ~ ~ as @e[tag= !player, tag= raycast-tracking_target, limit= 1, sort= nearest, distance= ..0.45] run tag @s add ray-cast_detected 
+execute unless entity @e[tag= ray-cast_detected] positioned ~ ~-0.5 ~ as @e[tag= !player, tag= raycast-tracking_target, limit= 1, sort= nearest, distance= ..0.45] run tag @s add ray-cast_detected 
+execute unless entity @e[tag= ray-cast_detected] positioned ~ ~-1 ~ as @e[tag= !player, tag= raycast-tracking_target, limit= 1, sort= nearest, distance= ..0.45] run tag @s add ray-cast_detected 
