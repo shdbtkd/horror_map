@@ -1,0 +1,1 @@
+# execute facing entity @a[tag= player, sort= nearest, limit=1] feet positioned ^ ^ ^1 run

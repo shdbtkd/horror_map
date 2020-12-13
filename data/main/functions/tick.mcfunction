@@ -1,4 +1,6 @@
 
+# 상호작용
+function interact:all
 # 스테미나
 function stamina:all
 # 세이브, 로드
