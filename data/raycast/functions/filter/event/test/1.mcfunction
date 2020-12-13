@@ -1,1 +1,1 @@
-summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["interact_tracker","interact_tracker-tellraw-test"]}
+summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["interact_tracker","interact_tracker-tellraw-fixed_entity"]}

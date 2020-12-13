@@ -11,19 +11,6 @@
               "type": "minecraft:villager",
               "nbt": "{Tags: [\"interact_tracker\", \"interact_tracker-tellraw-fixed_entity\"]}"
             }
-          }, {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:armor_stand",
-              "nbt": "{Tags: [\"data_storage-anchor\"]}",
-              "equipment": {
-                "head": {
-                  "item": "minecraft:paper",
-                  "nbt": "{tag: {storage: {EventData: {Tutorial: {Test: \"11_11\" }}}}}"
-                }
-              }
-            }
           }
         ]
       }
