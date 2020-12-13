@@ -1,0 +1,3 @@
+tp 0 -10 0
+execute at @e[tag= pos_fix-owner] if score @e[tag= pos_fix-owner, distance= ..0, limit=1, sort=nearest] fixerUUID0 = @s fixerUUID0 if score @e[tag= pos_fix-owner, distance= ..0, limit=1, sort=nearest] fixerUUID1 = @s fixerUUID1 if score @e[tag= pos_fix-owner, distance= ..0, limit=1, sort=nearest] fixerUUID2 = @s fixerUUID2 if score @e[tag= pos_fix-owner, distance= ..0, limit=1, sort=nearest] fixerUUID3 = @s fixerUUID3 run tag @e[tag= pos_fix-owner, distance= ..0, limit=1, sort=nearest] remove pos_fix-owner
+kill @s

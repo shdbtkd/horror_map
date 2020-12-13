@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "tellraw:filter"
+    "function": "interact:generic/filter"
   }
 }
