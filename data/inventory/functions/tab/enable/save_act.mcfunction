@@ -1,5 +1,5 @@
 
-function inventory:tab/disable/generic
+function inventory:tab/enable/generic
 # 여부 설정
 scoreboard players set disableSave invenTabInfo 0
 # 메시지 설정
