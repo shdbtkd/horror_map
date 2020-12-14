@@ -8,6 +8,8 @@ gamerule doFireTick false
 gamerule commandBlockOutput false
 # 몰라
 gamerule announceAdvancements false
+# 타일 아이템 드롭
+gamerule doEntityDrops false
 # 시간이 흐르는가
 gamerule doDaylightCycle false
 # 팬텀

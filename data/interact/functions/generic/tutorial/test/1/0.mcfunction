@@ -1,3 +1,6 @@
+
+function interact:revoke
+
 function tellraw:test/act
 function main:pos_fix/fix
 function interact:fixer/player/install
