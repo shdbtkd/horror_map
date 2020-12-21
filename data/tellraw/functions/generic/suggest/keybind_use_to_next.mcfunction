@@ -1,0 +1,1 @@
+tellraw @s [{"text":"대화를 넘기려면 ","color":"gray"}, {"keybind":"key.use","color":"gray"}, {"text":"을(를) 사용해 주세요","color":"gray"}]
